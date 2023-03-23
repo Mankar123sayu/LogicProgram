@@ -7,8 +7,11 @@ namespace LogicProgram
     {
         static void Main(string[] args)
         {
-            Fibonacci ABC = new Fibonacci();
-            ABC.Series();
+           // Fibonacci ABC = new Fibonacci();
+            //ABC.Series(); 
+
+            PerfectNumber perfectNumber = new PerfectNumber();
+            perfectNumber.Perfect();
         }
     }
 }
