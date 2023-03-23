@@ -14,8 +14,11 @@ namespace LogicProgram
             // PerfectNumber perfectNumber = new PerfectNumber();
             // perfectNumber.Perfect();
 
-            NumberPrime numberPrime = new NumberPrime();
-            numberPrime.Prime();
+            //NumberPrime numberPrime = new NumberPrime();
+            //numberPrime.Prime();
+
+            ReverseNumber reverseNumber = new ReverseNumber();
+            reverseNumber.Reverse();
 
         }
     }
