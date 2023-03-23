@@ -1,4 +1,5 @@
-﻿using LogicPrograms;
+﻿using LogicalPrograms;
+using LogicProgram;
 using System;
 
 namespace LogicProgram
@@ -7,11 +8,15 @@ namespace LogicProgram
     {
         static void Main(string[] args)
         {
-           // Fibonacci ABC = new Fibonacci();
+            // Fibonacci ABC = new Fibonacci();
             //ABC.Series(); 
 
-            PerfectNumber perfectNumber = new PerfectNumber();
-            perfectNumber.Perfect();
+            // PerfectNumber perfectNumber = new PerfectNumber();
+            // perfectNumber.Perfect();
+
+            NumberPrime numberPrime = new NumberPrime();
+            numberPrime.Prime();
+
         }
     }
 }
